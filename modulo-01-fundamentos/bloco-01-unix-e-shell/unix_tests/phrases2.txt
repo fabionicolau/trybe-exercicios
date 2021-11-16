@@ -1,0 +1,9 @@
+Conte quantas linhas tem o arquivo skills2.txt
+Crie um novo arquivo chamado phrases2.txt pelo terminal e adicione algumas frases de sua escolha.
+Adicione dois nomes de países ao final do arquivo phrases2.txt .
+Brasil é um pais
+branco é uma cor
+Branco é um jogador
+Outra frase
+Argentina
+Jamaica
