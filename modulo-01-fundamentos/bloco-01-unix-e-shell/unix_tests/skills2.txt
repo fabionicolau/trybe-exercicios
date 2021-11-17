@@ -1,0 +1,10 @@
+Internet
+Unix
+Bash
+Ubuntu
+zsh
+linux
+Kernell
+Trybe
+Dev
+web
