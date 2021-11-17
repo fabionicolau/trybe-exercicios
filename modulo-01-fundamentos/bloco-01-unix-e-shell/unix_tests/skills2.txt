@@ -6,4 +6,5 @@ zsh
 linux
 Kernell
 Trybe
-Dev
+Devpython
+node
