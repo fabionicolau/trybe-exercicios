@@ -7,4 +7,3 @@ linux
 Kernell
 Trybe
 Dev
-web
