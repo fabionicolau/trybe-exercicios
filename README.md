@@ -3,7 +3,8 @@ Os diretórios estão separados por módulos e blocos e serão atualizados confo
 
 <h1> Módulo 1 - Fundamentos </h1>
 
-<p> Bloco 1 - unix & shell </p>
-<p> Bloco 2 - Git, Github & Internet </p>
-<p> Bloco 3 - Introdução ao Html e CSS </p>
-
+<ul>
+<li> Bloco 1 - unix & shell </li>
+<li> Bloco 2 - Git, Github & Internet </li>
+<li> Bloco 3 - Introdução ao Html e CSS </li>
+</ul>
