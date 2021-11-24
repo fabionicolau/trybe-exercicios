@@ -36,10 +36,14 @@ h1 {
   display: inline-block;
 }
 
-#conteúdo {
-  border: 2px solid red;
-}
-
 h3 {
   text-align: center;
+}
+
+.box-lista {
+  text-align: center;
+}
+
+.lista {
+  display: inline-block;
 }
