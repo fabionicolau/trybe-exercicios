@@ -1,4 +1,4 @@
-Repositório com os exercícios que realizamos na <a href="https://betrybe.com" target="_blank">Trybe</a>.  
+Repositório com os exercícios que realizei na <a href="https://betrybe.com" target="_blank">Trybe</a>.  
 Os diretórios estão separados por módulos e blocos e serão atualizados conforme evolução no curso.
 
 <h1> Módulo 1 - Fundamentos </h1>
