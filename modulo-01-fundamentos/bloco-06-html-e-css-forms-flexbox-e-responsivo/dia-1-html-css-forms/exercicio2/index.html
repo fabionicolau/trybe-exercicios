@@ -7,6 +7,7 @@
     <title>Document</title>
   </head>
   <body>
+    <form action="/" id='form' name="myForm" onsubmit='return validate()' method="get">
     <fieldset>
       <legend>Dados Pessoais</legend>
       <label for="input-nome">Nome completo:</label>
@@ -59,7 +60,9 @@
       />
       <br />
       <label for="input-estado">Estado:</label>
-      <select name="estado" id="input-estado" required></select>
+      <select name="estado" id="input-estado" required>
+        
+      </select>
 
       <p>Moradia:</p>
       <label for="input-casa">
@@ -104,6 +107,8 @@
       <label for="input-data">Data de início:</label>
       <input type="date" name="data" id="input-data" required/>
     </fieldset>
+    <button type="submit" id="button-submit">Enviar</button>
+  </form>
     <script src="script.js"></script>
   </body>
 </html>
