@@ -1,5 +1,8 @@
 const button = document.getElementById('button-submit')
 const estadoSelect = document.getElementById('input-estado')
+const buttonClear = document.getElementById('button-clear')
+const form = document.getElementById('form')
+
 function preventDefault(event) {
   event.preventDefault()
   if (document.myForm.nome.value === '' || document.myForm.nome.value.length > 40) {
@@ -25,3 +28,7 @@ function gerandoEstados() {
   }
 }
 gerandoEstados()
+
+buttonClear.addEventListener('click', () => {
+  form.reset()
+})
