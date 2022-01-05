@@ -4,111 +4,113 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
     <title>Document</title>
   </head>
   <body>
-    <form action="/" id='form' name="myForm" method="get">
-    <fieldset>
-      <legend>Dados Pessoais</legend>
-      <label for="input-nome">Nome completo:</label>
-      <input
-        type="text"
-        name="nome"
-        id="input-nome"
-        maxlength="40"
-        placeholder="Digite seu nome"
-        required
-      />
-      <label for="input-email">Email:</label>
-      <input
-        type="email"
-        name="email"
-        id="input-email"
-        maxlength="50"
-        placeholder="Digite seu email"
-        required
-      />
-      <br />
-      <label for="input-cpf">CPF:</label>
-      <input
-        type="text"
-        name="cpf"
-        id="input-cpf"
-        maxlength="11"
-        placeholder="Digite seu CPF"
-        required
-      />
-      <br />
-      <label for="input-endereoo">Endereço:</label>
-      <input
-        type="text"
-        name="endereço"
-        id="input-endereco"
-        maxlength="200"
-        placeholder="Digite seu endereço"
-        required
-      />
-      <br />
-      <label for="input-cidade">Cidade:</label>
-      <input
-        type="text"
-        name="cidade"
-        id="input-cidade"
-        maxlength="28"
-        placeholder="Digite sua Cidade"
-        required
-      />
-      <br />
-      <label for="input-estado">Estado:</label>
-      <select name="estado" id="input-estado" required>
+    <form action="/" id="form" name="myForm" method="get">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="input-nome">Nome completo:</label>
+        <input
+          type="text"
+          name="nome"
+          id="input-nome"
+          maxlength="40"
+          placeholder="Digite seu nome"
+          required
+        />
+        <label for="input-email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="input-email"
+          maxlength="50"
+          placeholder="Digite seu email"
+          required
+        />
+        <br />
+        <label for="input-cpf">CPF:</label>
+        <input
+          type="text"
+          name="cpf"
+          id="input-cpf"
+          maxlength="11"
+          placeholder="Digite seu CPF"
+          required
+        />
+        <br />
+        <label for="input-endereoo">Endereço:</label>
+        <input
+          type="text"
+          name="endereço"
+          id="input-endereco"
+          maxlength="200"
+          placeholder="Digite seu endereço"
+          required
+        />
+        <br />
+        <label for="input-cidade">Cidade:</label>
+        <input
+          type="text"
+          name="cidade"
+          id="input-cidade"
+          maxlength="28"
+          placeholder="Digite sua Cidade"
+          required
+        />
+        <br />
+        <label for="input-estado">Estado:</label>
+        <select name="estado" id="input-estado" required></select>
 
-      </select>
-
-      <p>Moradia:</p>
-      <label for="input-casa">
-        <input type="radio" name="moradia" id="input-casa" checked />Casa
-      </label>
-      <label for="input-apartamento">
-        <input type="radio" name="moradia" id="input-apartamento" />Apartamento
-      </label>
-    </fieldset>
-    <fieldset>
-      <legend>Dados do último emprego</legend>
-      <label for="text-resumo">Currículo Resumido:</label>
-      <textarea
-        name="resumo"
-        id="text-resumo"
-        cols="30"
-        rows="10"
-        maxlength="1000"
-        required
-      ></textarea>
-      <br />
-      <label for="input-cargo">Cargo:</label>
-      <input
-        type="text"
-        name="cargo"
-        id="input-cargo"
-        maxlength="40"
-        placeholder="Informe seu cargo atual"
-        required
-      />
-      <br />
-      <label for="input-descricao">Descreva seu cargo:</label>
-      <textarea
-        name="descricao-cargo"
-        id="input-descricao"
-        cols="30"
-        rows="10"
-        maxlength="500"
-        required
-      ></textarea>
-      <br />
-      <label for="input-data">Data de início:</label>
-      <input type="date" name="data" id="input-data" required/>
-    </fieldset>
-    <button type="submit" id="button-submit">Enviar</button>
-  </form>
-    <script src="script.js"></script>
+        <p>Moradia:</p>
+        <label for="input-casa">
+          <input type="radio" name="moradia" id="input-casa" checked />Casa
+        </label>
+        <label for="input-apartamento">
+          <input
+            type="radio"
+            name="moradia"
+            id="input-apartamento"
+          />Apartamento
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Dados do último emprego</legend>
+        <label for="text-resumo">Currículo Resumido:</label>
+        <textarea
+          name="resumo"
+          id="text-resumo"
+          cols="30"
+          rows="10"
+          maxlength="1000"
+          required
+        ></textarea>
+        <br />
+        <label for="input-cargo">Cargo:</label>
+        <input
+          type="text"
+          name="cargo"
+          id="input-cargo"
+          maxlength="40"
+          placeholder="Informe seu cargo atual"
+          required
+        />
+        <br />
+        <label for="input-descricao">Descreva seu cargo:</label>
+        <textarea
+          name="descricao-cargo"
+          id="input-descricao"
+          cols="30"
+          rows="10"
+          maxlength="500"
+          required
+        ></textarea>
+        <br />
+        <label for="input-data">Data de início:</label>
+        <input type="date" name="data" id="input-data" required />
+      </fieldset>
+      <button type="submit" id="button-submit">Enviar</button>
+    </form>
   </body>
 </html>
