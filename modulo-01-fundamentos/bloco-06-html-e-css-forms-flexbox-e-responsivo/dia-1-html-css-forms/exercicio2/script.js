@@ -16,11 +16,12 @@ function preventDefault(event) {
 }
 button.addEventListener('click', preventDefault)
 
+const estados = ['Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal', 'Espírito Santo', 'Goiás', 'Maranhão', 'Mato Grosso', 'Mato Grosso do Sul', 'Minas Gerais', 'Pará', 'Paraíba', 'Paraná', 'Pernambuco', 'Piauí', 'Rio de Janeiro', 'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina', 'São Paulo', 'Sergipe', 'Tocantins']
 function gerandoEstados() {
-  for (let i = 0; i < 27; i += 1) {
-  const option = document.createElement('option')
-  option.innerText = 'teste'
-  estadoSelect.appendChild(option)
+  for (let i = 0; i < estados.length; i += 1) {
+    const option = document.createElement('option')
+    option.innerText = estados[i]
+    estadoSelect.appendChild(option)
   }
 }
 gerandoEstados()
