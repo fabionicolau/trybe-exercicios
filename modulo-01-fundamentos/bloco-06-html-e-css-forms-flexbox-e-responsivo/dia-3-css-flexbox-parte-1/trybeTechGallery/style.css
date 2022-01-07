@@ -26,6 +26,7 @@ h3 {
 
 div {
   text-align: center ;
+  margin-top: 5px;
 }
 
 .header-img {
@@ -57,10 +58,6 @@ div {
   padding: 15px;
 }
 
-div {
-  margin-top: 5px;
-}
-
 .gallery-img {
   width: 150px;
   margin-top: 15px;
@@ -70,6 +67,7 @@ div {
   width: 25px;
   margin-left: 10px;
 }
+
 hr {
   width: 15%;
   margin: 25px auto;
