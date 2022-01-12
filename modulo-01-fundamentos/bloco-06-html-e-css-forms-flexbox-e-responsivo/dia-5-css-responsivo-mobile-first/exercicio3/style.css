@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100;
+}
+
+#header-container {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+#header-container p {
+  font-size: 32px;
+  text-align: center;
+  color: wheat;
+}
+
+#nav-container {
+  width: 100%;
+}
+
+#nav-container ul {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 25px;
+  color: wheat;
+}
+
+.aside-one ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.aside-one, .aside-two {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.aside-one ul, .aside-two ul {
+  margin-top: 15px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.main-content h1 {
+  font-size: 25px;
+}
+
+.main-content p {
+  text-align: justify;
+  margin-top: 15px;
+}
+
+footer {
+  background-color: green;
+  color: wheat;
+  margin-top: 15px;
+  padding: 0.5rem;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+footer p { 
+  font-size: 13px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 22px;
+  }
+
+  #header-container p {
+    font-size: 40px;
+  }
+
+  #nav-container {
+    max-width: 900px;
+  }
+
+  .main-content h1 {
+    font-size: 32px;
+  }
+
+  footer p {
+    font-size: 16px
+  };
+}
