@@ -11,4 +11,5 @@ Os diretórios estão separados por módulos e blocos e serão atualizados confo
   <li> Bloco 5 - JavaScript: DOM, Eventos e Web Storage</li>
   <li> Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo</li>
   <li> Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários</li>
+  <li> Bloco 8 - Higher Order Functions do JavaScript ES6</li>
 </ul>
