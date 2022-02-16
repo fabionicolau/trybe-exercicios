@@ -15,7 +15,6 @@ const cryptoList = async () => {
     .forEach((coin) => {
       const li = document.createElement('li')
       const price = parseFloat(coin.priceUsd).toFixed(2)
-      console.log(price);
       li.innerText = `${coin.name} (${coin.symbol}): ${price}`
       list.appendChild(li)
     })
