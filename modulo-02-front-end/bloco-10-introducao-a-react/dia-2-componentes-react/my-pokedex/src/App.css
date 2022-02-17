@@ -28,7 +28,11 @@
   display: flex;
   justify-content: space-evenly;
   height: 200px;
-  width: 500px;
+  width: 600px;
+}
+
+.cards-container:hover {
+  transform: translateY(-10px);
 }
 
 .cards-UL {
@@ -57,6 +61,6 @@
 .footer-container {
   background-color: dimgray;
   text-align: center;
-  height: 80px;
+  height: 100px;
   line-height: 100px;
 }
