@@ -19,4 +19,8 @@ Os diretórios estão separados por módulos e blocos e serão atualizados confo
 
 <ul>
   <li> Bloco 10 - Introdução à React</li>
+  <li> Bloco 11 - Componentes com Estado, Eventos e Formulários com React</li>
+  <li> Bloco 12 - Ciclo de Vida de Componentes e React Router</li>
+  <li> Bloco 13 - Metodologias Ágeis</li>
+  <li> Bloco 14 - Testes automatizados com React Testing Library</li>
 </ul>
