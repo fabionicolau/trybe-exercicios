@@ -53,7 +53,13 @@ describe('2 - Testa com o histórico que as urls corretas são acessadas após c
     const linkContact = screen.getByRole('link', { name: /contato/i })
     userEvent.click(linkContact)
     expect(history.location.pathname).toEqual('/contato')
-    screen.getByRole('img',)
+  })
+
+  test('Testa se ao inserir URL errada, apresenta a mensagem "Página não encontrada"', () => {
+    const { history } = renderWithRouter(<App />)
+    history.push('/test')
+    const errorText = screen.getByText(/página não encontrada/i)
+    expect(errorText).toBeInTheDocument()
   })
 
 })
