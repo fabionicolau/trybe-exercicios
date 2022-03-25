@@ -23,4 +23,5 @@ Os diretórios estão separados por módulos e blocos e serão atualizados confo
   <li> Bloco 12 - Ciclo de Vida de Componentes e React Router</li>
   <li> Bloco 13 - Metodologias Ágeis</li>
   <li> Bloco 14 - Testes automatizados com React Testing Library</li>
+  <li> Bloco 15 - Gerenciamento de estado com Redux</li>
 </ul>
