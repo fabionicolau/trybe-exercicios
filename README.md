@@ -24,6 +24,17 @@ Os diretórios estão separados por módulos e blocos e serão atualizados confo
   <li> Bloco 13 - Metodologias Ágeis</li>
   <li> Bloco 14 - Testes automatizados com React Testing Library</li>
   <li> Bloco 15 - Gerenciamento de estado com Redux</li>
-  <li> Bloco 16: Projeto Jogo de Trivia</li>
-  <li> Bloco 17: Context API e React Hooks</li>
+  <li> Bloco 16 - Projeto Jogo de Trivia</li>
+  <li> Bloco 17 - Context API e React Hooks</li>
+  <li> Bloco 18 - Projeto App de Receitas</li>
 </ul>
+
+<h1> Módulo 3 - Desenvolvimento Back-end<h1></h1>
+
+<ul>
+  <li> Bloco 19 - Docker: Utilizando Containers</li>
+  <li> Bloco 20 - Introdução à SQL</li>
+  <li> Bloco 21 - Funções SQL, JOINs e Normalização</li>
+  <li> Bloco 22 - Introdução ao desenvolvimento Web com Node.js</li>
+</ul>
+  
